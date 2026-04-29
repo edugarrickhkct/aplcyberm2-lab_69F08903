@@ -1,0 +1,11 @@
+services:   
+  kali:
+    container_name: kali
+    build:
+      context: ./build
+    volumes:
+      - ./build/resolv.conf:/etc/resolv.conf
+
+
+
+      
